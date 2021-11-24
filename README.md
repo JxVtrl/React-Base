@@ -30,15 +30,20 @@ npm start
 ou
 yarn start
 ```
-----------
 
+### **Parar a aplicação**
+CTRL + C no Terminal
+````
+Deseja finalizar o arquivo em lotes (S/N)? S
+````
+----------
 ### **Pastas e arquivos importantes**
 - pasta *public*: **Estáticos**
 1. index.html
 
 - pasta *src*: **Adaptáveis**
 1. App.js ou jsx
-2. index.js
+2. index.js 
 
 
 
