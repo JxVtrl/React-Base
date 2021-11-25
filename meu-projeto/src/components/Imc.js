@@ -1,3 +1,6 @@
+import styles from './Imc.module.css'
+
+
 function Imc({ altura, peso }) {
     function imc(IMC) {
         if (IMC < 18.5) {
@@ -17,7 +20,7 @@ function Imc({ altura, peso }) {
 
     return (
         <>
-            <p id="imc">{imc(peso / (altura * altura))}</p>    
+            <p id="imc" className={styles.paragraph}>{imc(peso / (altura * altura))}</p>    
         </>
     )
 }
