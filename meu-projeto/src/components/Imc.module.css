@@ -1,3 +1,7 @@
 .paragraph{
     background-color: aqua;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
 }
+
