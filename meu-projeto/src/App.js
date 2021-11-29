@@ -23,6 +23,7 @@ function App() {
         peso={myInfo.peso} />
       
       <Imc
+        className="imc"
         altura={myInfo.altura}
         peso={myInfo.peso} />
 
